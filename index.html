@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumière Beauty</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <p>Free shipping on orders over $60</p>
+  </header>
+
+  <nav class="navbar">
+    <h1 class="logo">Lumière Beauty</h1>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Shop</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h2>Glow Beyond Ordinary</h2>
+      <p>Discover luxury-inspired makeup designed to enhance your natural beauty.</p>
+      <a href="#products" class="btn">Shop Best Sellers</a>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/girl portrait.jpg" alt="Makeup model" />
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <h2>Best Sellers</h2>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/lipstick.jpg" alt="Lipstick" />
+        <h3>Velvet Matte Lipstick</h3>
+        <p>Highly pigmented lipstick with a smooth matte finish.</p>
+        <span>$22</span>
+      </div>
+
+      <div class="product-card">
+        <img src="images/FOUNDATION.jpg" alt="Foundation" />
+        <h3>Flawless Finish Foundation</h3>
+        <p>Lightweight, buildable coverage for a natural glow.</p>
+        <span>$34</span>
+      </div>
+
+      <div class="product-card">
+        <img src="images/eye shadow pallete.jpg" alt="Eyeshadow Palette" />
+        <h3>Glow Eyeshadow Palette</h3>
+        <p>Bold and neutral shades for every look.</p>
+        <span>$45</span>
+      </div>
+
+      <div class="product-card">
+        <img src="images/mascara.jpg" alt="Mascara" />
+        <h3>Volume Mascara</h3>
+        <p>Lift, length, and define your lashes instantly.</p>
+        <span>$24</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Lumière Beauty</h2>
+    <p>
+      Lumière Beauty is a fictional luxury makeup brand created as a web design project.
+      It focuses on elegance, modern beauty, and a premium online shopping experience.
+    </p>
+  </section>
+
+  <footer class="footer" id="contact">
+    <p>Email: hello@lumierebeauty.com</p>
+    <p>Phone: 0400 123 456</p>
+    <p>© 2026 Lumière Beauty</p>
+  </footer>
+
+  <button id="chat-toggle" class="chat-toggle">Chat</button>
+
+  <div id="chat-window" class="chat-window hidden">
+    <div class="chat-header">
+      <span>Lumière Assistant</span>
+      <button id="close-chat" class="close-btn">×</button>
+    </div>
+
+    <div id="chat-body" class="chat-body">
+      <div class="message bot">
+        Hi, I’m your beauty assistant 💄 Ask me about products, shipping, returns, or contact details.
+      </div>
+    </div>
+
+    <div class="chat-input-area">
+      <input type="text" id="user-input" placeholder="Type your question..." />
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
